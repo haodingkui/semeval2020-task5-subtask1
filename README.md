@@ -1,6 +1,5 @@
-# NLP Experiments on Text Classification
+# SemEval2020-Task5-Subtask1
 
-基于深度学习的文本分类
 
 apex==0.1
 $ git clone https://github.com/NVIDIA/apex
