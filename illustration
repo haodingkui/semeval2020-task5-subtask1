@@ -1,0 +1,13 @@
+cross validation on train data
+
+1.finetune original models on pseudo labeled test set. > output/MODEL_DIR/finetuned_model
+2.train finetuned model on all train data. > output/MODEL_DIR/final_model
+3.cross validate final_model on train data. > output/MODEL_DIR/final_model/cross_validation_results
+4.test final model on test data. > output/MODEL_DIR/final_model
+
+
+random 9-1 validation on train data
+
+1.train and eval original model on random split train data. > random_split_output/MODEL_DIR/model
+2.cross validate final_model on train data. > random_split_output/MODEL_DIR/model/cross_validation_results
+3.test final model on test data. > random_split_output/MODEL_DIR/model
